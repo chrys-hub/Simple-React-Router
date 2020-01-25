@@ -8,6 +8,7 @@ const Header = () =>  {
     <div class="nav-header">
       <div class="nav-title">
   <Link to="/">Simple React Router</Link>
+
       </div>
     </div>
     <div class="nav-btn">
@@ -21,7 +22,9 @@ const Header = () =>  {
     <div class="nav-links">
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
-      <Link to="/NotMatchedLink">Try click this</Link>
+      <Link to="/hobby">Hobby</Link>
+      <Link to="/NotMatchedLink">404</Link>
+      <Link to="/jsondataview">Json Data Display</Link>
     </div>
      
   </div>

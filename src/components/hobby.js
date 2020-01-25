@@ -1,12 +1,11 @@
-import React from 'react';
+import React from 'react'
 
-const CompsNotMatched = () => {
+const Hobby = () =>{
     return(
-        <div style={{}}>
-            <h1>404 Your Page Not Found Or Router Is Unmatched
-            So This is the example of unmatched routing</h1>
-            <h3>Because I set the Link to into none of my component*See Link to on header.js</h3>
-            <h5>
+        <div>
+        <h1>Routing Sample</h1>
+        <h3>I don't Know what is this but at least it's work</h3>
+        <h5 style={{borderTop:`1px solid black`}}>
             Lorem ipsum dolor sit amet, cons
             ectetur adipiscing elit. Nam in leo felis. 
             Maecenas porta tellus sed ex pellentesque dapibus. Vivamus at neque sed ex pellentesque viverra. Integer nec leo sed odio pellentesque porttitor. Morbi eleifend quam a tristique accumsan. Aliquam in mi id libero varius scelerisque. Maecenas iaculis justo euismod, gravida metus vitae, volutpat orci. Sed in libero venenatis, dignissim ligula ut, gravida risus. Integer dapibus, lectus at rhoncus finibus, ipsum neque dignissim massa, id tempus quam odio ac mauris.
@@ -26,8 +25,8 @@ cies ullamcorper nec eget massa. Integer pellentesque, leo consequat consequat c
  tur fermentum elit sit amet vulputate. Sed rhoncus imperdiet porta.
 
             </h5>
-        </div>
+            </div>
     );
 }
 
-export default CompsNotMatched;
+export default Hobby;

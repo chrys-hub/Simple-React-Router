@@ -1,0 +1,7 @@
+.logo{
+    top: 0;
+    bottom: 50%;
+    position: fixed;
+    float: unset;
+    opacity: 0.3;
+}
